@@ -1,4 +1,4 @@
-\# Mentor Assignment Problem
+# Mentor Assignment Problem
 
 
 
@@ -6,13 +6,13 @@ This project implements and compares two approaches for assigning students to me
 
 
 
-\## Implemented Approaches
+## Implemented Approaches
 
 
 
-\- \*\*Gale–Shapley Stable Matching\*\*
+- Gale–Shapley Stable Matching
 
-\- \*\*Greedy Assignment Algorithm\*\*
+- Greedy Assignment Algorithm
 
 
 
@@ -20,25 +20,25 @@ The goal is to match students with mentors while considering the preference list
 
 
 
-\## Files
+## Files
 
 
 
-\- `gale\_shapley.cpp` — implementation of the Gale–Shapley stable matching algorithm
+- `gale_shapley.cpp` — implementation of the Gale–Shapley stable matching algorithm
 
-\- `greedy\_algorithm.cpp` — implementation of a greedy assignment strategy
+- `greedy_algorithm.cpp` — implementation of a greedy assignment strategy
 
 
 
-\## Problem Setup
+## Problem Setup
 
 
 
 The project uses sample hardcoded input data for:
 
-\- students and their mentor preferences
+- students and their mentor preferences
 
-\- mentors and their student preferences
+- mentors and their student preferences
 
 
 
@@ -46,19 +46,19 @@ Each mentor has one available slot.
 
 
 
-\## How to Compile and Run
+## How to Compile and Run
 
 
 
-\### Gale–Shapley
+### Gale–Shapley
 
 
 
-g++ gale\_shapley.cpp -o gale\_shapley
+g++ gale_shapley.cpp -o gale_shapley
 
-./gale\_shapley
+./gale_shapley
 
-g++ greedy\_algorithm.cpp -o greedy\_algorithm
+g++ greedy_algorithm.cpp -o greedy_algorithm
 
 ./greedy\_algorithm
 
